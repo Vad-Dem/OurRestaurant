@@ -1,0 +1,235 @@
+// font-family: 'Cookie', sans-serif;
+//font-family: 'Open Sans', sans-serif;
+
+.header {
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    // .header__line
+
+    &__line {
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    // .header__logo
+
+    &__logo {
+    }
+
+    // .header__menu
+
+    &__menu {
+    }
+
+    // .header__menu-link
+
+    &__menu-link {
+        color: #fff;
+        margin-left: 22px;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        position: relative;
+        transition: 0.4s ease-out;
+        &::after {
+            display: block;
+            position: absolute;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background-color: #ff7400;
+            content: "";
+            transition: 0.4s ease-out;
+        }
+        &:hover {
+            color: #ff7400;
+            transition: 0.4s ease-out;
+        }
+        &:hover:after,
+        &:focus:after {
+            width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+        }
+    }
+
+    // .header__basket
+
+    &__basket {
+        margin-left: 36px;
+        position: relative;
+        &::after {
+            content: "";
+            height: 50px;
+            width: 1px;
+            background-color: #fff;
+            position: absolute;
+            right: -26px;
+            bottom: -20px;
+        }
+    }
+
+    // .header__info
+
+    &__info {
+        color: #fff;
+        margin-left: 20px;
+    }
+
+    // .header__info-phone
+
+    &__info-phone {
+        color: #fff;
+        margin-right: 8px;
+        margin-bottom: 1px;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        position: relative;
+        transition: 0.4s;
+        &::before {
+            position: absolute;
+            top: 0;
+            left: -30px;
+            bottom: 0;
+            content: url(../img/phone.svg);
+        }
+        &:hover {
+            color: #ff7400;
+        }
+    }
+
+    // .header__info-text
+
+    &__info-text {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    // .header__button
+
+    &__button {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        color: #ffffff;
+        border: 1px solid #ff7400;
+        cursor: pointer;
+        padding: 14px 19px;
+        position: relative;
+        transition: 0.4s ease-out;
+        border-radius: 5px;
+        &:hover {
+            background-color: #ff7400;
+        }
+    }
+
+    // .header__textbox
+
+    &__textbox {
+        margin-top: 203px;
+        max-width: 560px;
+        text-align: center;
+    }
+
+    // .header__textbox-title
+
+    &__textbox-title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 57px;
+        color: #d67e35;
+        span {
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 92px;
+            color: #d67e35;
+        }
+    }
+
+    // .header__textbox-text
+
+    &__textbox-text {
+        margin-top: 5px;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #ffffff;
+        position: relative;
+        margin-bottom: 21px;
+        &::after {
+            position: absolute;
+            bottom: 7px;
+            right: 142px;
+
+            content: "_______";
+        }
+        &::before {
+            position: absolute;
+            bottom: 7px;
+            left: 142px;
+            content: "_______";
+        }
+    }
+
+    // .header__textbox-btn
+
+    &__textbox-btn {
+        cursor: pointer;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        color: #ffffff;
+        padding: 14px 28px;
+        background-color: #ff7400;
+        border: 1px solid #ff7400;
+        transition: .5s all;
+        &:hover{
+            background-color: transparent;
+            color: #ff7400;
+        }
+    }
+}
+
+.cards {
+    // .cards__inner
+
+    &__inner {
+    }
+
+    // .cards__card
+
+    &__card {
+    }
+
+    // .cards__card-img
+
+    &__card-img {
+    }
+
+    // .cards__card-title
+
+    &__card-title {
+    }
+
+    // .cards__card-text
+
+    &__card-text {
+    }
+}
