@@ -1,6 +1,7 @@
 // font-family: 'Cookie', sans-serif;
 //font-family: 'Open Sans', sans-serif;
 
+// header
 .header {
     background-image: url(../img/header-bg.png);
     background-repeat: no-repeat;
@@ -213,9 +214,10 @@
     }
 }
 
+// cards
 .cards {
     // .cards__inner
-
+    margin-bottom: 150px;
     &__inner {
         display: flex;
         justify-content: space-between;
@@ -265,4 +267,95 @@
         text-align: center;
         color: #656363;
     }
+}
+
+// history
+
+.history {
+    // .history__inner
+    
+    padding-bottom: 122px;
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    // .history__textblock
+
+    &__textblock {
+        max-width: 444px;
+        width: 100%;
+        text-align: center;
+    }
+
+    // .history__textblock-title
+
+    &__textblock-title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 62px;
+        color: #000000;
+        margin-bottom: 21px;
+        span {
+            color: #d67e34;
+        }
+    }
+
+    // .history__textblock-text
+
+    &__textblock-text {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #656363;
+        margin-bottom: 39px;
+    }
+
+    // .history__textblock-info
+
+    &__textblock-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    // .history__textblock-infoitem
+
+    &__textblock-infoitem {
+        text-align: center;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    // .history__textblock-num
+
+    &__textblock-num {
+        font-size: 40px;
+        line-height: 54px;
+        color: #bc9060;
+    }
+
+    // history__textblock-textinfo
+
+    &__textblock-textinfo {
+        font-size: 20px;
+        line-height: 27px;
+        color: #000000;
+    }
+
+    // .history__image
+
+    &__image {
+        max-width: 539px;
+    }
+}
+.center-item {
+    margin-left: 41px;
+    margin-right: 30px;
 }
