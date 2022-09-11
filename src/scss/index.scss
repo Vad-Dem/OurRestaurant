@@ -136,7 +136,6 @@
         padding: 14px 19px;
         position: relative;
         transition: 0.4s ease-out;
-        border-radius: 5px;
         &:hover {
             background-color: #ff7400;
         }
@@ -273,7 +272,7 @@
 
 .history {
     // .history__inner
-    
+
     padding-bottom: 122px;
     &__inner {
         display: flex;
@@ -358,4 +357,48 @@
 .center-item {
     margin-left: 41px;
     margin-right: 30px;
+}
+
+// selebrate
+
+.celebrate {
+    background-image: url(../img/celebrate-bg.png);
+    margin-bottom: 132px;
+    // .celebrate__inner
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    // .celebrate__textbox
+
+    &__textbox {
+        color: #fff;
+        max-width: 601px;
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 104px;
+    }
+
+    // .celebrate__textbox-title
+
+    &__textbox-title {
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 60px;
+        color: #d67e34;
+        margin-bottom: 20px;
+    }
+
+    // .celebrate__textbox-text
+
+    &__textbox-text {
+        font-family: "Open Sans";
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        color: #ffffff;
+    }
 }
