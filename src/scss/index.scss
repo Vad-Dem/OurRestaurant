@@ -652,3 +652,94 @@
         color: #000000;
     }
 }
+
+// galery
+
+.galery {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    // .galery__title
+
+    &__title {
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 62px;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 60px;
+        span {
+            color: #d67e34;
+        }
+    }
+
+    // .galery__boxtop
+
+    &__boxtop {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    // .galery__img
+
+    &__img {
+        transition: 0.5s;
+        &:hover {
+            transform: scale(1.15);
+        }
+    }
+
+    // .galery__boxbottom
+
+    &__boxbottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+// cooks
+
+.ckooks {
+    // ckooks__title
+    margin-bottom: 100px;
+    &__title {
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 62px;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 107px;
+        span {
+            color: #d67e34;
+        }
+    }
+
+    // .ckooks__inner
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    // .ckooks__img
+
+    &__img {
+        transition: 0.5s;
+        border: 5px solid #fff;
+        &:hover {
+            border: 5px solid #d67e34;
+            transform: scale(1.1);
+        }
+    }
+}
+
+// footer
+
+.footer {
+    background-image: url(../img/footer-bg.png);
+    max-width: 1440px;
+    min-height: 731px;
+}
