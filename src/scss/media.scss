@@ -1,0 +1,133 @@
+@media (max-width: 1100px) {
+    .header__textbox {
+        margin: 207px auto 0px;
+    }
+    .header__basket::after {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    .header__burgermenu {
+        position: relative;
+        display: block;
+        cursor: pointer;
+    }
+    .header__menu {
+        display: none;
+        background-color: #fff;
+        position: absolute;
+        bottom: -220px;
+        right: 55px;
+    }
+    .header__menu-link {
+        margin-left: 0;
+        display: block;
+        margin-bottom: 20px;
+        color: #000;
+        text-align: center;
+        padding: 10px 40px;
+    }
+    .header__basket {
+        display: none;
+    }
+    .header__info {
+        display: none;
+    }
+    .header__button {
+        display: none;
+    }
+    .cards__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards__card {
+        margin-bottom: 14px;
+        margin-top: 0px;
+        &:first-child {
+            margin-top: -90px;
+        }
+    }
+    .history__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .history__textblock-info {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 45px;
+    }
+    .celebrate__inner {
+        flex-direction: column;
+        align-items: center;
+        .header__button {
+            display: block;
+            margin-bottom: 30px;
+        }
+    }
+    .celebrate__textbox {
+        text-align: center;
+    }
+    .dishes__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .dishes__img {
+        margin-bottom: 50px;
+    }
+    .menu__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu__item {
+        margin-bottom: 20px;
+    }
+    .galery__boxtop,
+    .galery__boxbottom {
+        display: block;
+    }
+    .galery__img {
+        margin-bottom: 20px;
+    }
+    .galery__boxtop {
+        margin-bottom: 20px;
+    }
+    .ckooks__inner {
+        display: block;
+    }
+    .ckooks__img {
+        margin-bottom: 20px;
+    }
+    .dishes__item-line {
+        display: none;
+    }
+}
+@media (max-width: 585px) {
+    .header__textbox-title {
+        font-size: 30px;
+        line-height: 34px;
+        span {
+            font-size: 30px;
+            line-height: 34px;
+        }
+    }
+    .header__textbox-text {
+        font-size: 15px;
+        line-height: 20px;
+        &::after,
+        &::before {
+            display: none;
+        }
+    }
+    .header {
+        background-position: center;
+    }
+    .history__textblock-title {
+        max-width: 181px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 40px;
+        line-height: 46px;
+    }
+}

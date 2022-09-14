@@ -1,6 +1,10 @@
 // font-family: 'Cookie', sans-serif;
 //font-family: 'Open Sans', sans-serif;
 
+.header__burgermenu{
+    display: none;
+}
+
 // header
 .header {
     background-image: url(../img/header-bg.png);
@@ -14,6 +18,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
+        animation-duration: 1.5s;
     }
 
     // .header__logo
@@ -28,6 +33,7 @@
     // .header__menu
 
     &__menu {
+        display: block;
     }
 
     // .header__menu-link
@@ -157,6 +163,7 @@
         font-size: 50px;
         line-height: 57px;
         color: #d67e35;
+        animation-duration: 1.5s;
         span {
             font-weight: 400;
             font-size: 80px;
@@ -177,6 +184,7 @@
         color: #ffffff;
         position: relative;
         margin-bottom: 21px;
+        animation-duration: 1.5s;
         &::after {
             position: absolute;
             bottom: 7px;
@@ -206,6 +214,7 @@
         background-color: #ff7400;
         border: 1px solid #ff7400;
         transition: 0.5s all;
+        animation-duration: 1.5s;
         &:hover {
             background-color: transparent;
             color: #ff7400;
@@ -286,6 +295,7 @@
         max-width: 444px;
         width: 100%;
         text-align: center;
+        animation-duration: 1.5s;
     }
 
     // .history__textblock-title
@@ -351,6 +361,7 @@
     // .history__image
 
     &__image {
+        animation-duration: 1.5s;
         max-width: 539px;
     }
 }
@@ -740,6 +751,12 @@
 
 .footer {
     background-image: url(../img/footer-bg.png);
-    max-width: 1440px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 731px;
+}
+
+.visible{
+    display: block !important;
 }
